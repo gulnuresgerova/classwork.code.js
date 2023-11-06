@@ -20,14 +20,14 @@
 // console.log( elements)
 
 //task4
-let numbers = [12, -5, 6, -3, 34, -1, 23];
-let posotive = [];
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] > 0) {
-    posotive.push(numbers[i]);
-  }
-}
-console.log(posotive);
+// let numbers = [12, -5, 6, -3, 34, -1, 23];
+// let posotive = [];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > 0) {
+//     posotive.push(numbers[i]);
+//   }
+// }
+// console.log(posotive);
 
 //task5
 // let originalArray = [1 , 2 , 3 ,4];
@@ -89,3 +89,17 @@ console.log(posotive);
 //  else{
 //     console.log( `${num} yoxdur`)
 //  }
+//task diger
+let sampleNews = `As software developers, the natural tendency is to start developing applications based on your own 
+hands-on experience and knowledge right away. However, overtime issues in the application arise, adaptations to changes, 
+and new features happen.`
+
+// task: sampleNews  mətnində olan boşluqların sayını təyin edən proqram yazın.
+// let bosluq = sampleNews.split(``).length-1;
+// console.log(bosluq);
+let count=0;
+for (let i=0; i < sampleNews.length ; i++)
+{
+  sampleNews[i] === "" && count++;
+}
+console.log(count)
