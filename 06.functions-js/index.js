@@ -83,7 +83,7 @@ console.log(reverseString(`hello`));
 
 //task6
 let str =
-  " salam meleykum. ey menim balalarim, ho ho ho men sizin saxda babanizam, size hediyyeler getirmisem coxlu. deyin gorum - kimin aiesi varlidi ho ho ho ho";
+  " salam meleykum . ey menim balalarim , ho ho ho men sizin saxda babanizam , size hediyyeler getirmisem coxlu . deyin gorum - kimin aiesi varlidi ho ho ho ho";
 function letter(array) {
   let letters = 0;
   for (let i = 0; i < array.length; i++) {
