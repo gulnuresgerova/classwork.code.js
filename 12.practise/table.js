@@ -279,7 +279,7 @@ function drawTable(data) {
 drawTable(users);
  search.addEventListener("keyup" , function (event) {
      let filtered = users.filter((item) =>
-     ( (item.email) && (item.first_name)&& (item.last_name) && (item.gender)&& (item.id) ).toLocaleLowerCase().includes(event.target.value))  
+     item.first_name.toLocaleLowerCase().includes(event.target.value))
      drawTable(filtered);
  });
 ascending.addEventListener("click", function () {
