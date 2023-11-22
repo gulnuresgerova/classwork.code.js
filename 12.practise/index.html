@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- //////////////////////////////////////////////////////// -->
+    <button class="start">start</button>
+    <span class="result"> 0</span>
+    <button class="stop">stop</button>
+    <!-- //////////////////////////////////////////////////////// -->
+    <br />
+    <br />
+    <!-- //////////////////////////////////////////////////////// -->
+    <button class="increment">increment by 1</button>
+    <button class="decrement">decrement by 1</button>
+    <!-- //////////////////////////////////////////////////////// -->
+    <br />
+    <br />
+    <!-- //////////////////////////////////////////////////////// -->
+    <button class="resert">resert</button>
+    <br />
+    <!-- //////////////////////////////////////////////////////// -->
+    <h1>Bonus:</h1>
+    <input type="number" class="ininput" />
+    <button class="invalue">increment by input value</button>
+    <!-- //////////////////////////////////////////////////////// -->
+    <br />
+    <br />
+    <!-- //////////////////////////////////////////////////////// -->
+    <input type="number" class="deinput" />
+    <button class="devalue">increment by input value</button>
+    <!-- //////////////////////////////////////////////////////// -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+
+let ascendingBtn = document.querySelector(".ascending");
+let descendingBtn = document.querySelector(".descending");
+let buttonName = document.querySelector(".button-name");
+
+ascendingBtn.addEventListener("click", function () {
+  let sorted = data.sort((a, b) => {
+    return a.id - b.id;
+  });
+  drawTable(sorted);
+});
+descendingBtn.addEventListener("click", function () {
+  let sorted = data.sort((a, b) => {
+    return b.id - a.id;
+  });
+  drawTable(sorted);
+});
+buttonName.addEventListener("click", function () {
+  let sorted = data.sort((a, b) => {
+    return a.first_name.localeCompare(b.first_name);
+  });
+  drawTable(sorted);
+});
