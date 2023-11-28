@@ -320,8 +320,8 @@ let cont = document.querySelector(".container");
 cont.innerHTML = "";
 products.forEach((item) => {
   cont.innerHTML += `
-<div class="phone ">
-<div class="card" style="width: 18rem;">
+
+<div class="card row col-3" style="width: 20%; d-flex">
 <img src="${item.thumbnail}" class="card-img-top" alt="...">
 <div class="card-body">
   <h5 class="card-title ">${item.title}</h5>
@@ -335,7 +335,7 @@ products.forEach((item) => {
 </div>
 
 
-</div>`
+`
 });
 
 // const productsDiv = document.querySelector(".products");
