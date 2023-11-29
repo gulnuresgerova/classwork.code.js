@@ -314,29 +314,29 @@ const products = [
     __v: 0,
   },
 ];
-let cont = document.querySelector(".container");
-// let basket = JSON.parse(localStorage.getItem("basket")) ?? [];
-// drawCard(products);
-cont.innerHTML = "";
-products.forEach((item) => {
-  cont.innerHTML += `
+// let cont = document.querySelector(".container");
+// // let basket = JSON.parse(localStorage.getItem("basket")) ?? [];
+// // drawCard(products);
+// cont.innerHTML = "";
+// products.forEach((item) => {
+//   cont.innerHTML += `
+// <div class="col col-12 col-md-6 col-lg-4 ">
+// <div class="card" style="width: 18rem;">
+// <img src="${item.thumbnail}" class="card-img-top" alt="...">
+// <div class="card-body">
+//   <h5 class="card-title ">${item.title}</h5>
+//   <h5 class="card-title">${item.price}</h5>
+//   <p class="card-text">${item.description.slice(0,100)}...</p>
+//   <div class="btn-icon">
+//   <button class="btn-add" onclick=addToBasket("${item.title}")>Add to Basket</button>
+//   <i class="fa-regular fa-heart fa-fade" style="color: #ec0909;"></i>
+//   </div>
+// </div>
+// </div>
 
-<div class="card row col-3" style="width: 20%; d-flex">
-<img src="${item.thumbnail}" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title ">${item.title}</h5>
-  <h5 class="card-title">${item.price}</h5>
-  <p class="card-text">${item.description.slice(0,100)}...</p>
-  <div class="btn-icon">
-  <button class="btn-add" onclick=addToBasket("${item.title}")>Add to Basket</button>
-  <i class="fa-regular fa-heart fa-fade" style="color: #ec0909;"></i>
-  </div>
-</div>
-</div>
 
-
-`
-});
+// </div>`
+// });
 
 // const productsDiv = document.querySelector(".products");
 // let basket = JSON.parse(localStorage.getItem("basket")) ?? [];
@@ -363,3 +363,44 @@ products.forEach((item) => {
 //     `;
 //     });
 // }
+
+let allproducts = document.querySelector(".products");
+let basket = JSON.parse(localStorage.getItem("basket")) || [];
+
+
+function drawCard(data) {
+  allproducts.innerHTML = "";
+    data.forEach((product) => {
+      allproducts.innerHTML += `
+    <div class="product col col-12 col-md-6 col-lg-4 my-3">
+    <img src="${product.thumbnail}" alt="" />
+    <h4>${product.title}</h4>
+    <h4>${product.price}$</h4>
+    <p>
+    ${product.description.slice(0,100)}...
+    </p>
+    <div class="btn-icon">
+    <button class="btn-add" onclick=addToBasket("${product._id}")>Add to Basket</button>
+    <i class="fa-regular fa-heart fa-fade" style="color: #e90707;"></i>
+    </div>
+    </div>
+    `;
+    });
+}
+drawCard(products);
+
+function addToBasket(id) {
+  console.log(id);
+  localStorage.setItem("", JSON.stringify())
+  let product = products.find((elem) => elem._id === id);
+  let index = basket.findIndex((elem) => elem._id === id);
+  basket.push({product: product, amount: 1 });
+  if (index > -1) {
+    basket[index].amount =  basket[index].amount + 1;
+  } else {
+    basket.push({product: product, amount: 1 });
+  }
+
+}
+
+let toogleBtn= document.querySelector(".toggle-btn")

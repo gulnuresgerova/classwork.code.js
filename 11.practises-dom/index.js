@@ -11,6 +11,10 @@ button.addEventListener("click", function (params) {
   this.style.bottom = "10px";
   console.log(button.parentElement);
 });
+// <!-- localStorage.getItem("dark=mode") === "true"
+// ? localStorage.setItem("dark-mode", false)
+// : localStorage.setItem("dark-mode", true);
+// }); -->
 //task2
 // document.body.style.backgroundColor="red"
 let colors= ["blue" ,"red" ,"green" ,"yellow", "pink" , "greey" , "black"];
