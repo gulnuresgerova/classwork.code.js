@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.logo {
+  font-size: 1.6rem;
+  color: darkcyan;
+}
+.header button {
+  height: 40px;
+  width: 170px;
+  border-radius: 7px;
+  border: 1px solid darkcyan;
+  background-color: white;
+  color: darkcyan;
+}
+.header button:hover {
+  color: white;
+  background-color: darkcyan;
+}
+.box {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.img {
+  width: 220px;
+  height: 250px;
+}

@@ -7,14 +7,14 @@ let input = document.querySelector(".input")
 
 // BASE_URL=(`https://api.weatherapi.com/v1/current.json?key=de4fcc1d06a64857be7101727222212&q=$`)
 
-forecast.append(img);
+// forecast.append(img);
 
-setInterval(() => {
+// setInterval(() => {
 //   fetch(`https://api.weatherapi.com/v1/current.json?key=de4fcc1d06a64857be7101727222212&q=$`)
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
+    // .then((res) => res.json())
+    // .then((data) => {
+    //   console.log(data);
 
 
-    });
-});
+//     });
+// });

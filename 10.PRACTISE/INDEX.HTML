@@ -13,23 +13,6 @@
 
 
 
-function inputARR(element) {
-  element.forEach((item) => {
-    let word = document.createElement("p");
-    word.innerText = item;
-    document.body.append(word);
-    $("p").css({
-        backgroundColor: "rgb(10, 105, 105)",
-        width: "100px",
-      });
-      word.addEventListener("click", function () {
-        this.remove();
-      });
-
-  });
-}
-inputARR(arr);
-
 
 
 
