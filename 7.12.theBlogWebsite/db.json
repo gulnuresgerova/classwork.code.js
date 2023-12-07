@@ -1,0 +1,25 @@
+{
+    "blogs":[
+        {
+            "title" : "revan yumrusifet dirmix pradaksin",
+            "body" : "id voluptatum",
+            "author" : "lorerevanm",
+            "id" : 18
+
+        },
+        {
+            "title" : "alma banan iyde nar hardasan bu vaxdacan",
+            "body" : "qulu qulu",
+            "author" : "leman",
+            "id" : 19
+
+        },
+        {
+            "title" : "hey boy necesen dost",
+            "body" : "velosiped suren ",
+            "author" : "agali",
+            "id" : 20
+
+        }
+    ]
+}
