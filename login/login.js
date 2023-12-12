@@ -9,11 +9,11 @@ let allUsers=JSON.parse(localStorage.getItem("allUser"))
   let bool = allUsers.some(
     (item) =>
       item.userName === allInputs[0].value &&
-      item.password ===llInputs[2].value
+      item.password ===allInputs[2].value
   )
   //console.log(user);
 
-  if (allInputs[0].value !== "" || llInputs[2].value!== "") {
+  if (allInputs[0].value !== "" || allInputs[2].value!== "") {
     if(bool){
       window.location = "main.html"
     }else{

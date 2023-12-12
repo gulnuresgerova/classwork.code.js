@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 0;
+}
+.signhed {
+  color: grey;
+  font-size: 2.3rem;
+}
+.black {
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.login {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  height: 250px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(53, 53, 53, 0.11);
+  border: 3px solid rgb(27, 26, 26);
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px gray;
+}
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+button {
+  width: 100%;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color: rgb(56, 53, 53);
+  color: aliceblue;
+}
+.divIkon {
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  padding-right: 10px;
+  /* top: 314px;
+left: 743px; */
+}
