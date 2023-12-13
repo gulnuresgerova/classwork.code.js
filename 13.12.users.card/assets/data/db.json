@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "name": "Alfredooo",
+      "surname": "Linguini",
+      "email": "Alfredo@gmail.com",
+      "date": "12/13/2023, 1:04:29 AM",
+      "userphoto": "./assets/img/Alfredo.jpg",
+      "id": 1
+    },
+    {
+      "name": "Gusteau",
+      "surname": "Auguste",
+      "email": "gusteau@gmail.com",
+      "date": "5/17/2023, 10:18:12 AM",
+      "userphoto": "./assets/img/Qusto.jpg",
+      "id": 3
+    },
+    {
+      "name": "Remy",
+      "surname": "mouse",
+      "email": "remy@gmail.com",
+      "date": "5/17/2023, 10:21:36 AM",
+      "userphoto": "./assets/img/remy2.jpg",
+      "id": 4
+    },
+    {
+      "name": "Colleteeeeee",
+      "surname": "Tatou",
+      "email": "collete@gmail.com",
+      "date": "12/13/2023, 9:24:19 AM",
+      "userphoto": "./assets/img/bg3.jpg",
+      "id": 5
+    },
+    {
+      "name": "ego2",
+      "surname": "Anton",
+      "email": "ego2@gmail.com",
+      "date": "5/17/2023, 10:35:36 AM",
+      "userphoto": "./assets/img/Iqo.jpg",
+      "id": 6
+    },
+    {
+      "name": "Myles",
+      "surname": "Mclean",
+      "email": "zowyvyha@mailinator.com",
+      "date": "12/13/2023, 1:01:12 AM",
+      "userphoto": "./assets/img/Remy.jpg",
+      "id": 8
+    },
+    {
+      "name": "Brittany",
+      "surname": "Ferguson",
+      "email": "dutahuha@mailinator.com",
+      "date": "12/13/2023, 9:26:53 AM",
+      "userphoto": "./assets/img/Alfredo.jpg",
+      "id": 9
+    },
+    {
+      "name": "ertert",
+      "surname": "eryery@ryr",
+      "email": "reyrdy@ryr",
+      "date": "12/13/2023, 5:05:38 AM",
+      "userPhoto": "./assets/img/Iqo.jpg",
+      "id": 10
+    },
+    {
+      "name": "e4r5ye5",
+      "surname": "dryhrhy",
+      "email": "rru5u@det5uyt",
+      "date": "12/13/2023, 5:49:37 AM",
+      "userPhoto": "./assets/img/bg1.jpg",
+      "id": 11
+    },
+    {
+      "name": "alma",
+      "surname": "banan",
+      "email": "eagfwesd@oikgs",
+      "date": "12/13/2023, 5:12:55 AM",
+      "userPhoto": "./assets/img/Iqo2.jpeg",
+      "id": 12
+    },
+    {
+      "name": "alma",
+      "surname": "e4m56ke4",
+      "email": "eagfwesd@oikgs",
+      "date": "12/13/2023, 5:13:19 AM",
+      "userPhoto": "./assets/img/undefined",
+      "id": 13
+    },
+    {
+      "name": "erm6754k6",
+      "surname": "banan",
+      "email": "eagfwesd@oikgs",
+      "date": "12/13/2023, 5:23:15 AM",
+      "userPhoto": "./assets/img/Iqo.jpg",
+      "id": 14
+    },
+    {
+      "name": "alma",
+      "surname": "e4m56ke4",
+      "email": "e6m4e46@YTUIRY6",
+      "date": "12/13/2023, 5:24:13 AM",
+      "userPhoto": "./assets/img/Iqo.jpg",
+      "id": 15
+    },
+    {
+      "name": "erm6754k6",
+      "surname": "e4m56ke4",
+      "email": "eagfwesd@oikgs",
+      "date": "12/13/2023, 5:26:47 AM",
+      "userPhoto": "./assets/img/Iqo.jpg",
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: bisque;
+    color: black;
+    
+}
+.header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 20px;
+    font-size: 2.3rem;
+
+}
+.pages{
+    margin-top: 20px;
+    color: black;
+    font-size: 1.2rem;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#picture{
+    height: 90vh;
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;  
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+td img{
+    width: 50px;
+    height: 50px;
+   border-radius: 50%;
+
+}
+.table{
+    background-color: bisque;
+}
+.table h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
